@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Test</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click anywhere on the screen!</h1>
+    <p>Open Console (F12) to see output.</p>
+
+    <script>
+        const Input = {
+            mouse: { left: false, middle: false, right: false }
+        };
+
+        document.addEventListener("mouseup", function(event) {
+            switch (event.button) {
+                case 0:
+                    Input.mouse.left = false;
+                    console.log("Left click released");
+                    break;
+                case 1:
+                    Input.mouse.middle = false;
+                    console.log("Middle click released");
+                    break;
+                case 2:
+                    Input.mouse.right = false;
+                    console.log("Right click released");
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>
