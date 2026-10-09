@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Buttons Practice</title>
-        <link rel="stylesheet" href="buttons.css">
-</head>
-<body>
-
-<button class="subscribe-button">
-    SUBSCRIBE
-</button>
-
-<button class="join-button">
-    JOIN
-</button>
-
-<button class="tweet-button">
-    Tweet
-</button>
-</body>
-        </html>
-
-
-
-
 <style>
 .subscribe-button {
     background-color: rgb(200, 0, 0);
@@ -96,3 +71,14 @@
 }
 </style>
 
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="tweet-button">
+    Tweet
+</button>
